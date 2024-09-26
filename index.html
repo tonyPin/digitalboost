@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no, date=no, address=no, email=no, url=no">
+    <meta name="x-apple-disable-message-reformatting">
+    <meta name="color-scheme" content="light dark">
+    <meta name="supported-color-schemes" content="light dark">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+    
+        div,
+        td,
+        p {
+            font-family: "Open Sans", sans-serif;
+          font-weight: 300;
+          font-style: normal;
+          color: #2d2d2d;
+        }
+      </style>
+    <!--[if mso]>
+    <noscript>
+      <xml>
+        <o:OfficeDocumentSettings>
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+      </xml>
+    </noscript>
+    <style type="text/css">
+      table {
+        border-collapse: collapse;
+        border: 0;
+        border-spacing: 0;
+        margin: 0;
+      }
+
+      div,
+      td {
+        padding: 0;
+        font-family: "Open Sans", sans-serif;
+      }
+
+      div {
+        margin: 0 !important;
+      }
+    </style>
+    <![endif]-->
+    <style>
+        @media (prefers-color-scheme: dark) {
+        body {
+        background-color: #181a1b !important;
+        }
+
+        div {
+        background: #181a1b !important;
+        }
+
+        h1,
+        h3,
+        p,
+        a,
+        td {
+        color: #EDEEEF !important;
+        }
+
+        .featured-wrapper .arrows label::before,
+        .featured-wrapper .arrows label::after {
+
+        background-color: #181a1b !important;
+        opacity: .9 !important;
+        }
+
+        [id="image1"]:checked~.container .arrows [for="image4"]::before,
+        [id="image2"]:checked~.container .arrows [for="image1"]::before,
+        [id="image3"]:checked~.container .arrows [for="image2"]::before,
+        [id="image4"]:checked~.container .arrows [for="image3"]::before {
+        content: "";
+        background-image: url(https://i.ibb.co/W61Nff3/back-wh.png) !important;
+        }
+
+        [id="image1"]:checked~.container .arrows [for="image2"]::after,
+        [id="image2"]:checked~.container .arrows [for="image3"]::after,
+        [id="image3"]:checked~.container .arrows [for="image4"]::after,
+        [id="image4"]:checked~.container .arrows [for="image1"]::after {
+        content: "";
+        background-image: url(https://i.ibb.co/TMSZdvs/fwd-wh.png) !important;
+        }
+        }
+        @media screen and (max-width:430px) {
+            h1{
+                font-size: 24px;
+            }
+            .card-spacer{
+                padding: 1em 0 !important;
+            }
+        }
+    </style>
+     <style>
+        a[x-apple-data-detectors=true] {
+          color: inherit !important;
+          text-decoration: inherit !important;
+        }
+    
+        a:hover {
+          text-decoration: none;
+        }
+    
+    
+        .cbox-support {
+          display: inline-block !important;
+          opacity: 0;
+          width: 0;
+          height: 0;
+          margin: 0;
+          margin: 0 0 0 -9999px;
+          float: left;
+          position: absolute;
+          -webkit-appearance: none;
+        }
+      </style>
+       <style>
+        @media screen and (-webkit-min-device-pixel-ratio:0) {
+          input[type="radio"] {
+            display: inline-block !important;
+            opacity: 0;
+            width: 0;
+            height: 0;
+            margin: 0;
+            margin: 0 0 0 -9999px;
+            float: left;
+            position: absolute;
+            -webkit-appearance: none;
+          }
+    
+          .cbox-support:checked~div .fallback {
+            display: none
+          }
+    
+          .cbox-support:checked~div .interactive {
+            display: block !important;
+            max-height: none !important;
+          }
+    
+          input[class~="aolmail_cbox-support"]:checked~div .fallback {
+            display: block !important;
+          }
+    
+          input[class~="aolmail_cbox-support"]:checked~div .interactive {
+            display: none !important;
+          }
+    
+          #MessageViewBody .cbox-support:checked~div .fallback {
+            display: block !important;
+          }
+    
+          #MessageViewBody .cbox-support:checked~div .interactive {
+            display: none !important;
+          }
+    
+          .cbox-support\0:checked~div .fallback {
+            display: block !important;
+          }
+    
+          .cbox-support\0:checked~div .interactive {
+            display: none !important;
+          }
+    
+          /* styles */
+          * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+          }
+    
+          .container {
+            max-width: 500px;
+            /* padding: 0 20px; */
+            margin: 0 auto;
+          }
+    
+          ul {
+            list-style: none;
+          }
+    
+          img {
+            /* display: block; */
+            max-width: 100%;
+            height: auto;
+            background-color: #ffffff;
+          }
+    
+          label {
+            display: block;
+            cursor: pointer;
+          }
+    
+          a {
+            text-decoration: none;
+            color: inherit;
+          }
+    
+    
+          .featured-wrapper {
+            position: relative;
+          }
+          /* .interactive {
+            position: relative;
+          } */
+    
+          .featured-wrapper .featured-list {
+            display: grid;
+          }
+    
+          .featured-wrapper .featured-list li {
+            grid-column: 1;
+            grid-row: 1;
+            opacity: 0;
+            transition: opacity 0.25s;
+          }
+    
+          .featured-wrapper .arrows label::before,
+          .featured-wrapper .arrows label::after {
+            position: absolute;
+            top: 40%;
+            /* text-align: center; */
+            transform: translateY(-40%);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            color: white;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 24px 24px;
+            background-color: #fff;
+            opacity: 0.5;
+            transition: opacity 0.25s;
+          }
+    
+          .featured-wrapper .arrows label::before {
+            left: 30px;
+          }
+    
+          .featured-wrapper .arrows label::after {
+            right: 30px;
+          }
+    
+          .featured-wrapper .dots {
+            /* position: absolute;
+              bottom: -10px;
+              left: 50%;
+              transform: translateX(-50%); */
+            display: flex;
+            justify-content: center;
+          }
+    
+          .featured-wrapper .dots li:not(:last-child) {
+            margin-right: 8px;
+          }
+    
+          .featured-wrapper .dots label {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            border: 1px solid #d9d9d9;
+            transition: background 0.25s;
+          }
+    
+          .featured-wrapper .dots label:hover {
+            background: #F98F7C;
+          }
+    
+          /* slide interactive */
+    
+          [id="image1"]:checked~.container .featured-list li:nth-child(1),
+          [id="image2"]:checked~.container .featured-list li:nth-child(2),
+          [id="image3"]:checked~.container .featured-list li:nth-child(3),
+          [id="image4"]:checked~.container .featured-list li:nth-child(4),
+          [id^="image"]:checked~.container .arrows [for^="image"]:hover::before,
+          [id^="image"]:checked~.container .arrows [for^="image"]:hover::after {
+            opacity: 1;
+          }
+    
+          [id="image1"]:checked~.container .arrows [for="image4"]::before,
+          [id="image2"]:checked~.container .arrows [for="image1"]::before,
+          [id="image3"]:checked~.container .arrows [for="image2"]::before,
+          [id="image4"]:checked~.container .arrows [for="image3"]::before {
+            /* content: "\276E"; */
+            content: "";
+            background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/arrow-prev-slideshow.svg);
+            /* background-image: url(https://i.ibb.co/njP10jH/back-blk.png); */
+    
+    
+          }
+    
+          [id="image1"]:checked~.container .arrows [for="image2"]::after,
+          [id="image2"]:checked~.container .arrows [for="image3"]::after,
+          [id="image3"]:checked~.container .arrows [for="image4"]::after,
+          [id="image4"]:checked~.container .arrows [for="image1"]::after {
+            content: "";
+            background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/arrow-next-slideshow.svg);
+            /* background-image: url(https://i.ibb.co/vx6z7XS/fwd-blk.png); */
+          }
+    
+          [id="image1"]:checked~.container .dots [for="image1"],
+          [id="image2"]:checked~.container .dots [for="image2"],
+          [id="image3"]:checked~.container .dots [for="image3"],
+          [id="image4"]:checked~.container .dots [for="image4"] {
+            background: #0E5DDD;
+          }
+        }
+      </style>
+    <title>Digitalboost Solutions</title>
+</head>
+<body style="margin:0;padding:0;word-spacing:normal;background-color:#f5f5f5;">
+    <div role="article" aria-label="Welcome to Parcel!" lang="en" dir="ltr" class="wrapper"
+    style="font-size:medium; font-size:max(16px, 1rem); font-family: 'Open Sans', sans-serif;background:#f5f5f5;">
+        <div style="display: none;">This is my preheader text
+            <!-- the below code adds spacing after the preheader text -->
+            &#8199;&#847;&#8199;&#847;&#8199;&#847;&#8199;&#847;&#8199;&#847;
+        </div>
+        <table role="presentation" style="width:100%;border:0;border-spacing:0;border-collapse: collapse;">
+            <tr>
+                <td align="center">
+                    <!--[if mso]>
+                    <table role="presentation" align="center" style="width:600px;background-color: #ffffff;">
+                    <tr>
+                        <td style="padding:20px 0;">
+                    <![endif]-->
+                    <div class="outer" style="width:96%;max-width:600px;margin:0 auto;background-color: #ffffff;">
+                        <table role="presentation" style="width:100%;border:0;border-spacing:0;border-collapse: collapse;">
+                            <tr>
+                                <td align="center" style="padding: 96px 0 40px;">
+                                    <a href="https://www.example.com/1" target="_blank"
+                                    style="text-decoration: none;font-size: 22px;font-weight: bold;color: #2d2d2d;"><img
+                                    src="https://i.postimg.cc/bwFtPZPW/digitalboost-logo.png" width="250"
+                                    style="width: 100%;max-width: 250px;display: block;" alt="Digitalboost Solutions" border="0"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center;">
+                                  <h1 style="padding: 0;margin: 0;font-weight: 700;font-family: 'Open Sans', sans-serif;">Supercharge Your Growth</h1>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td style="padding: 20px 20px 0;text-align: center;width: 250px;">
+                                  <p style="padding: 0;margin: 0;font-family: 'Open Sans', sans-serif;">Unlock New Potential with Innovative Strategies.</p>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td style="padding: 24px 40px;">
+                                  <div style="margin:0 64px">
+                                    <hr style="margin: 0;border-width: 0; background: #d9d9d9; color: #d9d9d9; height:4px">
+                                  </div>
+                                </td>
+                              </tr>
+                              <!-- content -->
+                              <tr>
+                                <td style="padding: 0;">
+                                    <input type="checkbox" class="cbox-support" checked>
+                                    <div>
+                                        <!-- fallback -->
+                                        <div class="fallback">
+                                            <!--[if true]>
+                                                    <table role="presentation" width="100%" style="all:unset;opacity:0;">
+                                                      <tr>
+                                                    <![endif]-->
+                                            <!--[if false]></td>
+                                            </tr>
+                                            </table><![endif]-->
+                                            <div style="display:table;width:100%;text-align: center;font-size: 0;">
+                                            <!--[if true]>
+                                            <td width="50%">
+                                                <![endif]-->
+                                                    <!--[if !true]><!-->
+                                                    <div class="column"
+                                                        style="display:inline-block;width:50%;vertical-align: top;min-width: 250px;font-size: medium;font-size: max(16px, 1rem);">
+                                                        <!--<![endif]-->
+                                                        <div class="card-spacer" style="padding: 1em;">
+                                                    
+                                                        <a href="https://www.example.com/2" target="_blank"><img
+                                                            src="https://i.postimg.cc/Bbs8pD5L/email-img.jpg" width="100%"
+                                                            style="min-width: 250px;border-radius: 4px;display: block;" alt="email marketing"
+                                                            border="0"></a>
+                                                        </div>
+                                                        <!--[if !true]><!-->
+                                                    </div>
+                                                    <!--<![endif]-->
+                                                    <!--[if true]>
+                                            </td>
+                                                <![endif]-->
+                                                        <!--[if true]>
+                                                <td width="50%">
+                                                <![endif]-->
+                                              <!--[if !true]><!-->
+                                              <div class="column"
+                                                style="display:inline-block;width:50%;vertical-align: top;min-width: 250px;font-size: medium;font-size: max(16px, 1rem);">
+                                                <!--<![endif]-->
+                                                <div class="card-spacer" style="padding: 1em;">
+                                                 
+                                                  <a href="https://www.example.com/3" target="_blank"><img
+                                                      src="https://i.postimg.cc/C1bBbJ8p/analytics-img.jpg" width="100%"
+                                                      style="min-width: 250px;border-radius: 4px;display: block;" alt="analytics"
+                                                      border="0"></a>
+                                                
+                                                </div>
+                                                <!--[if !true]><!-->
+                                              </div>
+                                              <!--<![endif]-->
+                                              <!--[if true]>
+                                            </td>
+                                            <![endif]-->
+                                                    </div>
+                                                    <!--[if true]>
+                                            </tr>
+                                            </table>
+                                            <![endif]-->
+                                            <!-- COLUMN ROW 2 -->
+                                            <!--[if true]>
+                                            <table role="presentation" width="100%" style="all:unset;opacity:0;">
+                                                <tr>
+                                            <![endif]-->
+                                            <!--[if false]></td>
+                                                </tr>
+                                            </table><![endif]-->
+                                            <div style="display:table;width:100%;text-align: center;font-size: 0;">
+                                              <!--[if true]>
+                                            <td width="50%">
+                                            <![endif]-->
+                                              <!--[if !true]><!-->
+                                              <div class="column"
+                                                style="display:inline-block;width:50%;vertical-align: top;min-width: 250px;font-size: medium;font-size: max(16px, 1rem);">
+                                                <!--<![endif]-->
+                                                <div class="card-spacer" style="padding: 1em;">
+                                                  <a href="https://www.example.com/4" target="_blank"><img
+                                                      src="https://i.postimg.cc/Qx89WQxv/seo-img.jpg" width="100%"
+                                                      style="min-width: 250px;border-radius: 4px;display: block;"
+                                                      alt="Search Engine Optimization" border="0"></a>
+                                                </div>
+                                            <!--[if !true]><!-->
+                                            </div>
+                                            <!--<![endif]-->
+                                            <!--[if true]>
+                                            </td>
+                                            <![endif]-->
+                                            <!--[if true]>
+                                            <td width="50%">
+                                            <![endif]-->
+                                              <!--[if !true]><!-->
+                                              <div class="column"
+                                                style="display:inline-block;width:50%;vertical-align: top;min-width: 250px;font-size: medium;font-size: max(16px, 1rem);">
+                                                <!--<![endif]-->
+                                                <div class="card-spacer"  style="padding: 1em;">
+                                                  <a href="https://www.example.com/5" target="_blank"><img
+                                                      src="https://i.postimg.cc/m2mc3PPk/social-media.jpg" width="100%"
+                                                      style="min-width: 250px;border-radius: 4px;display: block;"
+                                                      alt="Search Engine Optimization" border="0"></a>
+                                                </div>
+                                                <!--[if !true]><!-->
+                                              </div>
+                                              <!--<![endif]-->
+                                              <!--[if true]>
+                                            </td>
+                                            <![endif]-->
+                                            </div>
+                                            <!--[if true]>
+                                            </tr>
+                                            </table>
+                                            <![endif]-->
+                                          </div>
+                                          <!-- end of FALLBACK -->
+                                          <!-- INTERACTIVE -->
+                                        <!--[if !mso]><!---->
+                                        <div class="interactive" style="display:none;max-height:0;overflow:hidden;">
+
+                                            <input type="radio" id="image1" name="image" checked>
+                                            <input type="radio" id="image2" name="image">
+                                            <input type="radio" id="image3" name="image">
+                                            <input type="radio" id="image4" name="image">
+                                            <div class="container">
+                                            <div class="featured-wrapper">
+                                                <ul class="featured-list">
+                                                <li>
+                                                    <div style="padding: 0 20px;">
+                                                    <a href="https://www.example.com/6" target="_blank"><img
+                                                        src="https://i.postimg.cc/Bbs8pD5L/email-img.jpg" width="100%"
+                                                        style="min-width: 250px;border-radius: 4px;display: block;" alt="email marketing"
+                                                        border="0"></a>                              
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div style="padding: 0 20px;">                             
+                                                    <a href="https://www.example.com/7" target="_blank"><img
+                                                        src="https://i.postimg.cc/C1bBbJ8p/analytics-img.jpg" width="100%"
+                                                        style="min-width: 250px;border-radius: 4px;display: block;" alt="analytics"
+                                                        border="0"></a>                        
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div style="padding: 0 20px;">                           
+                                                    <a href="https://www.example.com/8" target="_blank"><img
+                                                        src="https://i.postimg.cc/Qx89WQxv/seo-img.jpg" width="100%"
+                                                        style="min-width: 250px;border-radius: 4px;display: block;"
+                                                        alt="Search Engine Optimization" border="0"></a>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div style="padding: 0 20px;">             
+                                                    <a href="https://www.example.com/9" target="_blank"><img
+                                                        src="https://i.postimg.cc/m2mc3PPk/social-media.jpg" width="100%"
+                                                        style="min-width: 250px;border-radius: 4px;display: block;" alt="Social Media"
+                                                        border="0"></a>       
+                                                    </div>
+                                                </li>
+                                                </ul>
+                                                <ul class="arrows">
+                                                <li>
+                                                    <label for="image1"></label>
+                                                </li>
+                                                <li>
+                                                    <label for="image2"></label>
+                                                </li>
+                                                <li>
+                                                    <label for="image3"></label>
+                                                </li>
+                                                <li>
+                                                    <label for="image4"></label>
+                                                </li>
+                                                </ul>
+                                                <ul class="dots" style="padding: 32px 0;">
+                                                <li>
+                                                    <label for="image1"></label>
+                                                </li>
+                                                <li>
+                                                    <label for="image2"></label>
+                                                </li>
+                                                <li>
+                                                    <label for="image3"></label>
+                                                </li>
+                                                <li>
+                                                    <label for="image4"></label>
+                                                </li>
+                                                </ul>
+                                            </div>
+                    
+                                            </div>
+                    
+                                        </div>
+                                        <!--<![endif]-->
+                                        <!-- end of INTERACTIVE -->
+                                    </div>
+                                </td>
+                              </tr>
+                              <!-- button section -->
+                            <tr>
+                                <td align="center" style="padding: 40px 0;">
+                                <a href="https://www.example.com/10" target="_blank"
+                                    style="background-color:#0E5DDD; background: linear-gradient(#0E5DDD,#0E5DDD); text-decoration: none; padding: 1em 2em; color: #FCFDFF; display:inline-block; mso-padding-alt:0;text-underline-color:#0E5DDD;font-family: 'Open sans', sans-serif;font-weight: bold;border-radius: 4px;"><!--[if mso]><i style="mso-font-width:200%;mso-text-raise:200%" hidden>&emsp;</i><span style="mso-text-raise:100%;"><![endif]-->
+                                    Discover More
+                                    <!--[if mso]></span><i style="mso-font-width:200%;" hidden>&emsp;&#8203;</i><![endif]-->
+                                </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" style="padding-bottom: 40px;">
+                                    <p style="margin: 0;padding: 0;font-family: 'Open sans', sans-serif;font-weight: bold;color: #F98F7C;">
+                                    Connect with us</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" style="padding: 0;">
+                                    <a href="https://www.example.com/ln" target="_blank"><img
+                                        src="https://i.postimg.cc/0NTK6hbC/linkedin.png" alt="linkedin" width="40"
+                                        border="0"></a>
+                                    <a href="https://www.example.com/em" target="_blank"><img
+                                        src="https://i.postimg.cc/cLJnPQpf/at-circle.png" alt="email" width="40" border="0"></a>
+                                    <a href="https://www.example.com/yt" target="_blank"><img
+                                        src="https://i.postimg.cc/mDWhZM5X/youtube.png" alt="youtube" width="40" border="0"></a>
+                                    <a href="https://www.example.com/tw" target="_blank"><img
+                                        src="https://i.postimg.cc/DzX8K5B4/twitter.png" alt="twitter" width="40"
+                                        border="0"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td
+                                  style="padding:50px 0;text-align: center;font-size: 12px;font-family: 'Open sans', sans-serif;color: #2d2d2d;">
+                                  To unsubscribe to email list <a href="https://www.example.com/unsub" target="_blank"
+                                    style="text-decoration: underline;color: #2d2d2d;">click here</a>
+                                </td>
+                              </tr>
+                        </table>
+                    </div>
+                    <!--[if mso]>
+                    </td>
+                    </tr>
+                    </table>
+                    <![endif]-->
+                </td>
+            </tr>
+        </table>
+    </div>   
+</body>
+</html>
